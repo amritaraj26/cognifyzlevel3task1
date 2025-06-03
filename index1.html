@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery & Slideshow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 class="title">🌟 My Magical Image Gallery + Slideshow 🌟</h1>
+
+  <!-- 🖼️ Image Gallery Section -->
+  <section class="gallery-section">
+    <h2>Click Any Image to Enlarge</h2>
+    <div class="gallery">
+      <input type="checkbox" id="img1">
+      <label for="img1"><img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg" alt="Thumb 1" /></label>
+      <div class="popup">
+        <label for="img1" class="overlay"></label>
+        <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg" alt="Large Image 1" />
+      </div>
+
+      <input type="checkbox" id="img2">
+      <label for="img2"><img src="https://static.vecteezy.com/system/resources/thumbnails/039/213/395/small_2x/concept-save-the-world-save-environment-the-world-is-in-the-grass-of-the-green-bokeh-background-photo.jpg" alt="Thumb 2" /></label>
+      <div class="popup">
+        <label for="img2" class="overlay"></label>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/039/213/395/small_2x/concept-save-the-world-save-environment-the-world-is-in-the-grass-of-the-green-bokeh-background-photo.jpg" alt="Large Image 2" />
+      </div>
+
+      <!-- Add more if needed -->
+    </div>
+  </section>
+
+  <!-- 📽️ Slideshow Section -->
+  <section class="slideshow-section">
+    <h2>Auto Changing Slideshow</h2>
+    <div class="slideshow">
+      <div class="slides">
+        <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg" alt="Slide 1" />
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/039/213/395/small_2x/concept-save-the-world-save-environment-the-world-is-in-the-grass-of-the-green-bokeh-background-photo.jpg" alt="Slide 2" />
+        
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
